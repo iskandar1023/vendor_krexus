@@ -35,7 +35,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapersPicker \
     Stk \
-    WallpaperPicker
+    WallpaperPicker \
+    masquerade
 
 # Latin IME lib (based on ARM architecture)
 ifneq ($(filter arm,$(TARGET_ARCH)),)
